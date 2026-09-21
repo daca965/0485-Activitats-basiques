@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 // Activitat 11 — Intercanvi de dues variables
 public class Intercanvi {
     public static void main(String[] args) {
@@ -5,5 +8,23 @@ public class Intercanvi {
         //       variable auxiliar i mostra'ls després de l'intercanvi:
         //   a = ...
         //   b = ...
+
+        Scanner teclat = new Scanner(System.in);
+        int a = 0;
+        System.out.println("a");
+        a = teclat.nextInt();
+
+        int b = 0;
+        System.out.println("B");
+        b = teclat.nextInt();
+
+        int temporal = a;
+        a = b;
+        b = temporal;
+
+        System.out.println("a=" + a);
+        System.out.println("b=" + b);
+
+
     }
 }

@@ -13,5 +13,12 @@ public class AvaluarExpressions {
         //   a / 3 - b
         //   a / (33 - b)
         //   d * 23 - 1 + b
+
+        System.out.println(2 - 3 * 8 + 4 );
+        System.out.println((2 - 3 ) * 8 + 4 );
+        System.out.println(3 * 8 - 4 * 3 - 2 );
+        System.out.println(3 / 3 - 8 );
+        System.out.println(3 / (33 - 8));
+        System.out.println(2 * 23 - 1 + 8);
     }
 }
