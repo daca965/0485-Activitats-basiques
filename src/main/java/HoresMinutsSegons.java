@@ -23,15 +23,6 @@ public class HoresMinutsSegons {
         System.out.println("Minuts:" + minuts);
         segons = segons % 60;
         System.out.println("segons:" + segons);
-        
-
-       //int minuts = segons / 60;
-        //int hores = minuts / 3600;
-
-        //System.out.println("hores" + hores);
-        //System.out.println("minuts" + minuts );
-        //System.out.println("segons" + segons);
-
     
 
         

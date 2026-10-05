@@ -22,8 +22,8 @@ public class Intercanvi {
         a = b;
         b = temporal;
 
-        System.out.println("a=" + a);
-        System.out.println("b=" + b);
+        System.out.println("a= " + a);
+        System.out.println("b= " + b);
 
 
     }

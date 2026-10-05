@@ -54,9 +54,10 @@ public class MonedesMinimes {
         centims = centims % 5;
         System.out.println(monedes5 + " monedes de 5 centims");
 
-         //monedes de 2 centims
-        int monedes_2 = centims /2 ;
-        centims = centims % 200 ;
+        
+        // monedes de 2 centims
+        int monedes_2 = centims / 2;
+        centims = centims % 2;
         System.out.println(monedes_2 + " monedes de 2 centims");
 
         //monedes de 2 centims

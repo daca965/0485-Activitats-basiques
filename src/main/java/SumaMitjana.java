@@ -9,30 +9,27 @@ public class SumaMitjana {
         //   Mitjana = ...      (recorda que la mitjana pot tenir decimals)
 
         Scanner teclat = new Scanner (System.in); 
-        double numero_1 = 0; 
+        int numero_1 = 0; 
         System.out.println("numero_1");
         numero_1 = teclat.nextInt();
 
-       double numero_2 = 0 ; 
+       int numero_2 = 0 ; 
         System.out.println("numero_2");
         numero_2 = teclat.nextInt();
 
-       double numero_3 = 0; 
+       int numero_3 = 0; 
         System.out.println("numero_3");
         numero_3 = teclat.nextInt();
 
-        double numero_4 = 0 ; 
+        int numero_4 = 0 ; 
         System.out.println("numero_4");
         numero_4 = teclat.nextInt();
 
-        System.out.println("suma dels numeros");
-
-        System.out.println(numero_1 + numero_2 + numero_3 + numero_4);
-
-        System.out.println("mitjana");
-        System.out.println(numero_1 + numero_2 + numero_3 + numero_4 / 4);
-
-
+        int suma = numero_1 + numero_2 + numero_3 + numero_4;
+        double mitjana = suma / 4.0;
+        
+       System.out.println("Suma = " + suma);
+       System.out.println("Mitjana = " + mitjana);
 
 
 

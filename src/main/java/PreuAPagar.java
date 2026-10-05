@@ -15,19 +15,20 @@ public class PreuAPagar {
         System.out.println("unitats:");
         unitats = teclat.nextInt();
 
-         int preu = 0;
-        System.out.println("preu:");
-        preu = teclat.nextInt();
+         double preu;
+        System.out.println("preu unitari :");
+        preu = teclat.nextDouble();
 
-        int descompte = 0;
-        System.out.println("descompte");
-        descompte = teclat.nextInt();
+        double descompte;
+        System.out.println("descompte:");
+        descompte = teclat.nextDouble();
 
-        int preu_total = unitats * preu;
-        int descompte_total = (preu_total * descompte / 100);
-         int pagar = preu_total - descompte_total;
-        System.out.println("preu a pagar =" + pagar + "euros" );
+        double preu_total = unitats * preu;
+        double descompte_total = (preu_total * descompte / 100);
+        double pagar = preu_total - descompte_total;
+        System.out.println("preu a pagar =  " + pagar + " euros" );
        
+       teclat.close();
 
 
         

@@ -13,8 +13,9 @@ public class Quadrat {
         int costat = 0;
         System.out.println("mesura del costat");
         costat = teclat.nextInt();
-        System.out.println(costat * 4);
-        System.out.println(costat * costat);
+        System.out.println("Perímetre del quadrat = " + (costat * 4));
+        System.out.println("Àrea del quadrat = " + (costat * costat));
+        
 
 
 
